@@ -594,6 +594,58 @@ footer {
     font-size: 0.9rem;
     position: relative;
 }
+.footer-section {
+    display: flex;
+    justify-content: flex-start; /* Đặt khoảng cách đều giữa các mục */
+    align-items: flex-start; /* Căn chỉnh các mục theo chiều dọc */
+    text-align: left; /* Căn chỉnh văn bản sang trái */
+    margin: 0 auto;
+    gap: 30px;
+    margin-bottom: 30px;
+    border-bottom: white 0px solid;
+}
+.section_div{
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    max-width: max-content;
+    margin: 0;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+
+}
+div ul{
+    list-style-type: none; /* Loại bỏ dấu chấm */
+
+}
+.section_div ul li i {
+    margin-right: 10px; /* Khoảng cách giữa icon và văn bản */
+}
+.section_div ul li a {
+    color: rgba(255, 255, 255, 0.7); /* Màu chữ nhạt hơn */
+    text-decoration: none;
+    transition: color 0.3s, opacity 0.3s; /* Thêm hiệu ứng chuyển đổi mượt mà */
+}
+.section_div ul li a:hover {
+    color: #ff6347; /* Màu khi trỏ vào */
+
+}
+.section_div p{
+    color: rgba(255, 255, 255, 0.7); /* Màu chữ nhạt hơn */
+    text-decoration: none;
+    transition: color 0.3s, opacity 0.3s; /* Thêm hiệu ứng chuyển đổi mượt mà */
+    max-width: 300px;
+}
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin-right: 20px;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {
